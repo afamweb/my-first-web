@@ -1,0 +1,61 @@
+img {
+  width: 1em;
+}
+.bp {
+  color: rgb(29, 112, 112);
+}
+h2 {
+  /* color: white; */
+  font-style: oblique;
+  font-size: 40px;
+}
+body {
+  background-image: url(/media/Screenshot_20220817-175726.png);
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+  /* background-position: center; */
+}
+input {
+  outline: none;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  align-items: center;
+  width: 30em;
+  display: flex;
+  flex-direction: column;
+  background-color: #2c007e96;
+  opacity: 0.8;
+  color: rgb(155, 155, 155);
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px 15px rgba(13, 45, 134, 0.678);
+}
+.page {
+  margin: 10px;
+}
+.sign {
+  cursor: pointer;
+  padding: 8px 15px;
+  background-color: crimson;
+  border: none;
+  outline: none;
+  text-align: right;
+}
+.pp{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.acc{
+ margin: 7px;
+}
+a{
+  color: rgb(0, 3, 12);
+  font-size: medium;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up Page</title>
+    <link rel="stylesheet" href="Css/Sign.css" />
+  </head>
+  <body>
+    <section>
+      <h2 class="bp">Not a Member😎</h2>
+      <div class="main">
+        <h2>SIGN UP</h2>
+        <form>
+          <div class="page">
+            <img src="/project/icons/user.png" />
+            <input
+              type="text"
+              name="First Name"
+              required
+              placeholder="First Name"
+              id="first"
+            />
+          </div>
+          <div class="page">
+            <img src="/project/icons/user.png" />
+            <input
+              type="text"
+              name="Last Name"
+              required
+              placeholder="Last Name"
+              id="last"
+            />
+          </div>
+          <div class="page">
+            <img src="/project/icons/email.png" />
+            <input
+              type="mail"
+              name="Email"
+              required
+              placeholder="Email"
+              id="mail"
+            />
+          </div>
+          <div class="page">
+            <img src="/project/icons/phone-call.png" />
+            <input
+              name="number"
+              id="ph"
+              required
+              placeholder="Phone Number"
+              pattern="0[0-9]+"
+              minlength="11"
+              maxlength="11"
+            />
+          </div>
+          <div class="page">
+            <img src="/project/icons/open-lock.png" />
+            <input
+              type="password"
+              name="password"
+              id="pass"
+              required
+              placeholder="Password"
+            />
+          </div>
+          <div class="page">
+            <img src="/project/icons/open-lock.png" />
+            <input
+              type="password"
+              name="Confirm Password"
+              id="cpass"
+              required
+              placeholder="Confirm Password"
+            />
+          </div>
+          <input type="checkbox" name="check" required id="check" />
+          <label for="check">Accept the therms and conditions </label><br />
+          <button class="sign">Sign Up</button>
+        </form>
+        <div class="acc">
+          <p class="pp">Already have a account?</p>
+          <a href="Login.html"> Sign In</a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
